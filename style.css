@@ -1,5 +1,6 @@
 body{
     background-color: rgb(58, 194, 58);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
  background-color: gold;
@@ -7,4 +8,15 @@ footer{
  position: fixed;
  bottom: 0;
  width: 100%;
+}
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    margin: 0.5rem;
+}
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;
 }
